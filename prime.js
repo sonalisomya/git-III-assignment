@@ -1,14 +1,14 @@
 let n=7
 let count =0
-for(let i=0; i<n; i++){
+for(let i=1; i<=n; i++){
     if(n%i==0){
         count++
-        break;
+       
     }
 
     }
-    if(count==0){
-        console.log("no")
+    if(count==2){
+        console.log("Yes")
     }else{
-        console.log("yes")
+        console.log("No")
     }
